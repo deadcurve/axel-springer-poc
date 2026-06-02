@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subdomain Takeover PoC - flawme</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            border: 2px solid #00ff00;
+            padding: 30px;
+            background-color: rgba(0, 20, 0, 0.9);
+            box-shadow: 0 0 20px #00ff00;
+            max-width: 800px;
+        }
+        h1 { 
+            text-transform: uppercase; 
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+        p { 
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+        .video-wrapper {
+            margin-top: 25px;
+            border: 2px solid #00ff00;
+            line-height: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Subdomain Takeover Successful</h1>
+        <p>Target: <strong>politicalads-transparency.axelspringer.com</strong></p>
+        <p>Researcher: <strong>flawme</strong></p>
+        
+        <div class="video-wrapper">
+            <!-- Bad Apple Video -->
+            <iframe width="640" height="480" 
+                    src="https://www.youtube.com/embed/9lNZ_Rnr7Jc?autoplay=1" 
+                    title="Bad Apple!!" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
